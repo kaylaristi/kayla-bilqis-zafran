@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Kayla Putri Threehapsari | Portfolio</title>
+
+  <meta
+    name="description"
+    content="Portfolio pribadi Kayla Putri Threehapsari."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a href="#home" class="brand">
+        <span class="brand-mark">K</span>
+        <span>Kayla Putri</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        aria-label="Buka menu navigasi"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#about">Tentang</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#experience">Pengalaman</a>
+        <a href="#achievements">Prestasi</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#contact">Kontak</a>
+
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Aktifkan dark mode"
+          title="Ganti tema"
+        >
+          <span id="themeIcon">☾</span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="hero container">
+      <div class="hero-content reveal">
+        <p class="eyebrow">PORTFOLIO PRIBADI</p>
+
+        <h1>
+          Kayla Putri
+          <span>Threehapsari</span>
+        </h1>
+
+        <p class="hero-role">Lulusan SMA sederajat</p>
+
+        <p class="hero-description">
+          Pribadi yang disiplin, bertanggung jawab, komunikatif, dan memiliki
+          semangat untuk terus belajar serta berkembang dalam berbagai bidang
+          pekerjaan.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#about" class="button button-primary">
+            Kenali Saya
+          </a>
+          <a href="#contact" class="button button-secondary">
+            Hubungi Saya
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="hero-decoration"></div>
+
+        <!-- Ganti profile.jpg dengan foto dari CV Anda -->
+        <img
+          src="profile.jpg"
+          alt="Foto Kayla Putri Threehapsari"
+          class="profile-image"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+
+        <div class="profile-placeholder">
+          <span>KP</span>
+        </div>
+
+        <div class="hero-card-info">
+          <span>Terbuka untuk</span>
+          <strong>Kesempatan berkembang</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span></span>
+      Scroll untuk melihat lebih banyak
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-light" id="about">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">TENTANG SAYA</p>
+          <h2>Pribadi yang siap belajar dan berkembang.</h2>
+        </div>
+
+        <div class="about-content reveal">
+          <p>
+            Saya adalah lulusan SMA sederajat dengan pengalaman kerja yang
+            membuat saya terbiasa bekerja secara disiplin, bertanggung jawab,
+            dan mampu berkomunikasi dengan baik.
+          </p>
+
+          <p>
+            Saya mampu bekerja dalam tim maupun individu serta memiliki
+            semangat untuk terus belajar dan berkembang dalam berbagai bidang
+            pekerjaan.
+          </p>
+
+          <div class="about-highlight">
+            <span class="highlight-icon">✦</span>
+            <p>
+              Mengutamakan tanggung jawab, komunikasi yang baik, dan kualitas
+              dalam bekerja.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="education">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">RIWAYAT PENDIDIKAN</p>
+          <h2>Perjalanan pendidikan</h2>
+        </div>
+
+        <div class="timeline education-timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023 – 2025</div>
+            <div class="timeline-card">
+              <span class="card-label">Pendidikan Menengah Atas</span>
+              <h3>MAS Al-Amanah Al-Gontory</h3>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2019 – 2022</div>
+            <div class="timeline-card">
+              <span class="card-label">Pendidikan Menengah Pertama</span>
+              <h3>MTs Al-Amanah Al-Gontory</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">PENGALAMAN</p>
+          <h2>Pengalaman kerja</h2>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience-card reveal">
+            <div class="experience-top">
+              <div>
+                <span class="card-label">Tenaga pemasaran</span>
+                <h3>Puffy Catton Candy</h3>
+              </div>
+              <time>Desember 2025 – Mei 2026</time>
+            </div>
+
+            <ul class="experience-points">
+              <li>
+                Melakukan produksi dan pengemasan produk secara konsisten
+                untuk menjaga kualitas.
+              </li>
+              <li>
+                Bertanggung jawab dalam penjualan langsung dan kegiatan
+                sampling kepada pelanggan.
+              </li>
+              <li>
+                Menyusun laporan penjualan harian dan evaluasi hasil penjualan.
+              </li>
+            </ul>
+          </article>
+
+          <article class="experience-card reveal">
+            <div class="experience-top">
+              <div>
+                <span class="card-label">
+                  Barista, kasir, tenaga pemasaran
+                </span>
+                <h3>Teh Kotjok</h3>
+              </div>
+              <time>Mei 2026 – Agustus 2026</time>
+            </div>
+
+            <ul class="experience-points">
+              <li>
+                Menyiapkan dan meracik minuman sesuai standar kualitas yang
+                ditetapkan sebagai barista.
+              </li>
+              <li>
+                Melayani transaksi pembayaran pelanggan dengan akurat serta
+                mengelola pencatatan kas sebagai kasir.
+              </li>
+              <li>
+                Melakukan promosi produk, penjualan langsung, serta menarik
+                minat pelanggan untuk meningkatkan omset sebagai tenaga
+                pemasaran.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="achievements">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">PRESTASI</p>
+          <h2>Pencapaian</h2>
+        </div>
+
+        <div class="empty-card reveal">
+          <div class="empty-icon">✦</div>
+          <h3>Belum tercantum dalam CV</h3>
+          <p>
+            Informasi mengenai prestasi atau penghargaan belum tercantum pada
+            CV yang tersedia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="skills">
+      <div class="container skills-layout">
+        <div class="section-heading reveal">
+          <p class="eyebrow">KOMPETENSI</p>
+          <h2>Keahlian yang saya miliki.</h2>
+        </div>
+
+        <div class="skills-content reveal">
+          <div class="skill-group">
+            <h3>Keahlian</h3>
+
+            <div class="skill-list">
+              <span class="skill-tag">Microsoft Excel</span>
+              <span class="skill-tag">Input data</span>
+              <span class="skill-tag">Komunikasi dengan pelanggan</span>
+              <span class="skill-tag">Penjualan langsung</span>
+              <span class="skill-tag">Direct selling</span>
+              <span class="skill-tag">Produksi dan distribusi</span>
+              <span class="skill-tag">Kerja tim</span>
+            </div>
+          </div>
+
+          <div class="skills-extra">
+            <div class="extra-item">
+              <span class="extra-icon">A</span>
+              <div>
+                <h3>Bahasa</h3>
+                <p>Indonesia — Bahasa asli</p>
+                <p>Arabic — Menengah</p>
+                <p>English — Basic</p>
+              </div>
+            </div>
+
+            <div class="extra-item">
+              <span class="extra-icon">♡</span>
+              <div>
+                <h3>Hobi</h3>
+                <p>Traveling ringan</p>
+                <p>Olahraga badminton</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow eyebrow-light">KONTAK</p>
+          <h2>Mari terhubung.</h2>
+          <p>
+            Silakan hubungi saya melalui informasi kontak yang tersedia berikut
+            ini.
+          </p>
+        </div>
+
+        <div class="contact-list reveal">
+          <a href="tel:089677029239" class="contact-item">
+            <span class="contact-icon">☎</span>
+            <span>
+              <small>Telepon</small>
+              <strong>0896 7702 9239</strong>
+            </span>
+          </a>
+
+          <a href="mailto:kaylathree2312@gmail.com" class="contact-item">
+            <span class="contact-icon">✉</span>
+            <span>
+              <small>Email</small>
+              <strong>kaylathree2312@gmail.com</strong>
+            </span>
+          </a>
+
+          <div class="contact-item">
+            <span class="contact-icon">⌖</span>
+            <span>
+              <small>Lokasi</small>
+              <strong>Tangerang Selatan</strong>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="currentYear"></span> Kayla Putri Threehapsari</p>
+      <a href="#home">Kembali ke atas ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
